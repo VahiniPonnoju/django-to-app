@@ -1,0 +1,9 @@
+version : "3.3"
+services :
+  web :
+     #build : .
+     image: "sanketshirke/django-app:latest"
+     ports :
+         - "8000:8000"
+     volumes:
+      - ./volume/store_data/db.sqlite3:/data/db.sqlite3
