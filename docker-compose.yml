@@ -2,7 +2,7 @@ version : "3.3"
 services :
   web :
      #build : .
-     image: "VahiniPonnoju/django-app:latest"
+     image: "vahiniponnoju/django-app:latest"
      ports :
          - "8000:8000"
      volumes:
