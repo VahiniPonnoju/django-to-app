@@ -1,1 +1,2 @@
-echo"just checking webhook is working status"
+echo"Attaching webhook to this project"
+
